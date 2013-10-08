@@ -39,10 +39,10 @@ for gp in grav_pos:
             g_sum = 0;
             old_time_step = time_step
         
-        dxMid = prism[0]
-        dyMid = prism[1]
-        dzMid = prism[2]
-	hfin  = prism[3]
+        dxMid = prism[1]
+        dyMid = prism[2]
+        dzMid = prism[3]
+	hfin  = prism[4]
        
         # Calculate the distance to the mass to determine which formula to use
         rad = sqrt((dxMid-gp[1])**2 + 
